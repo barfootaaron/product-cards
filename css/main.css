@@ -1,0 +1,58 @@
+.products{
+	width: 100%;
+	display: inline;
+	position: center;
+	margin-bottom: 10px;
+	padding: 3em;
+}
+
+.product-card {
+	border: solid;
+	border-color: lightblue;
+	box-sizing: border-box;
+	float: left;
+	width: 30%;
+	height: 50%;
+	text-align: center;
+	display: inline-block;
+	margin-left: 10px;
+	padding: 5px;
+
+}
+h1 {
+	border: 1px lightgrey 1.7em;
+	font-size: 1.5em;
+}
+
+h2 {
+	border: solid 1px; 
+	border:lightgrey;
+	position: auto;
+}
+
+h3 {
+	font-size: .9em;
+}
+
+p {
+	font-size: .5em;
+}
+
+/* Make available yellow & background grey*/
+
+.available {
+	text-align: left;
+	color: yellow;
+	background-color: grey;
+	width: 100%;
+}
+
+/* format bottom section of card*/
+
+.left-justify {
+	text-align: left;
+	justify-content: left;
+	font-weight: bold;
+}
+
+
